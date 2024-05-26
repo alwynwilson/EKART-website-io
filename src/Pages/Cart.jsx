@@ -85,7 +85,7 @@ const Cart = () => {
             </div>
             <div className="col-lg-4">
               <div className="border rounded p-3">
-                <h4>Total Amount : <span className='text-danger'>$ 4500</span></h4>
+                <h4>Total Amount : <span className='text-danger'>$ {cartTotal}</span></h4>
                 <hr />
                 <div className="d-grid">
                   <button onClick={checkout} className='btn btn-success'>Checkout</button>
